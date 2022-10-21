@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser, isPlatformServer } from "@angular/common";
 import { menu } from '../data';
 import 'jquery';
 declare var $: any;
@@ -16,20 +17,31 @@ export class HomepageComponent implements OnInit {
   uniqueCategories: any;
   categoryBtns: any;
   Menu: any;
-  DateYear:any;
+  DateYear: any;
 
-  constructor() {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+
+  }
+
+  ngOnInit(): void {
+    
     this.section = document.querySelector('.section-center');
     this.btnContainer = document.querySelector('.btn-container');
     this.categoryNames = menu.map((index) => index?.category);
     this.Menu = menu;
-    this.DateYear=new Date().getFullYear();
-  }
+    this.DateYear = new Date().getFullYear();
 
-  ngOnInit(): void {
     this.uniqueCategories = this.removeRepeatingNames(this.categoryNames);
     // this.menuList(menu);
-    this.JQueryCodes()
+    this.JQueryCodes();
+    
+    if (isPlatformBrowser(this.platformId)) {
+      //Tarayıcıda çalışacak kodlar...
+    }
+    if (isPlatformServer(this.platformId)) {
+      //Sunucuda çalışacak kodlar...
+    }
+
   }
   JQueryCodes() {
     $(document).ready(() => {

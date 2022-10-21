@@ -33,6 +33,9 @@ export function app(): express.Express {
   server.get('*', (req, res) => {
     res.render(indexHtml, { req, providers: [{ provide: APP_BASE_HREF, useValue: req.baseUrl }] });
   });
+  server.get('/naber', (req, res) => {
+  console.log('asdas')
+  });
 
   return server;
 }
