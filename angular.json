@@ -5,7 +5,11 @@
   "projects": {
     "elfidakahvecimcom": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:module": {
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
