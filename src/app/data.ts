@@ -1,4 +1,7 @@
-export const menu = [{
+     //categoryIndex
+      //currencyUnit
+export const menu = [
+    {
     id: 1,
     title: "Pratik Kahvaltı Tabağı",
     anaCategory: '',
@@ -266,7 +269,7 @@ export const menu = [{
     category: "Tostlar",
     price: "₺51",
     img: "https://www.justonecookbook.com/wp-content/uploads/2011/10/Dorayaki-New-500x400.jpg",
-    desc: `<a style=color:red>Bakkal Ekmeği Arasına Sucuk, Yumurta, Kaşar Peyniri</a>`,
+    desc: `Bakkal Ekmeği Arasına Sucuk, Yumurta, Kaşar Peyniri`,
 },
 {
     id: 26,
@@ -316,7 +319,7 @@ export const menu = [{
     category: "Tostlar",
     price: "₺53",
     img: "https://www.justonecookbook.com/wp-content/uploads/2011/10/Dorayaki-New-500x400.jpg",
-    desc: `<a style=color:red>Salam, Sucuk, Kaşar Peyniri</a>`,
+    desc: `Salam, Sucuk, Kaşar Peyniri`,
 },
 {
     id: 31,
@@ -1837,7 +1840,7 @@ export const menu = [{
     category: 'Soğuk İçecekler',
     priority: 0,
     price: '₺25',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxNy8wNw/250x250/SG9tZW1hZGUtTGVtb25hZGUtdzcyMi1jYXB0aW9uLmpwZw.png',
     desc: ``,
 },
 {
@@ -1847,7 +1850,7 @@ export const menu = [{
     category: 'Soğuk İçecekler',
     priority: 0,
     price: '₺27',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxMi8wNw/250x250/WXV6dS1DaHVoYWktdzYwMC0yLmpwZw.png',
     desc: ``,
 },
 {
@@ -1857,7 +1860,7 @@ export const menu = [{
     category: 'Soğuk İçecekler',
     priority: 0,
     price: '₺18',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxMi8wNw/250x250/WXV6dS1DaHVoYWktdzYwMC0yLmpwZw.png',
     desc: ``,
 },
 {
@@ -1867,7 +1870,7 @@ export const menu = [{
     category: 'Soğuk İçecekler',
     priority: 0,
     price: '₺13',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxMi8wNw/250x250/WXV6dS1DaHVoYWktdzYwMC0yLmpwZw.png',
     desc: ``,
 },
 {
@@ -1877,7 +1880,7 @@ export const menu = [{
     category: 'Soğuk İçecekler',
     priority: 0,
     price: '₺8',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wNQ/250x250/Q3JlYW15LU5hcGEtQ2FiYmFnZS1hbmQtQmFjb24tUGFzdGEtNTM0OC1JLmpwZw.png',
     desc: ``,
 }, {
     id: 0,
@@ -1886,7 +1889,7 @@ export const menu = [{
     category: 'Makarnalar',
     priority: 0,
     price: '₺59',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wNQ/250x250/Q3JlYW15LU5hcGEtQ2FiYmFnZS1hbmQtQmFjb24tUGFzdGEtNTM0OC1JLmpwZw.png',
     desc: `Spagetti Makarnası, Şefin Özel Kıymalı Bolonez Sosu, Kaşar Peyniri, Dilim Zeytin ile Servis Edilir`,
 },
 {
@@ -1896,7 +1899,7 @@ export const menu = [{
     category: 'Makarnalar',
     priority: 0,
     price: '₺58',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wNQ/250x250/Q3JlYW15LU5hcGEtQ2FiYmFnZS1hbmQtQmFjb24tUGFzdGEtNTM0OC1JLmpwZw.png',
     desc: `Spagetti Makarnası, Özel Domates Sosu, Kaşar Peyniri, Siyah Zeytin ile Servis Edilir`,
 },
 {
@@ -1916,7 +1919,7 @@ export const menu = [{
     category: 'Makarnalar',
     priority: 0,
     price: '₺61',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wNQ/250x250/Q3JlYW15LU5hcGEtQ2FiYmFnZS1hbmQtQmFjb24tUGFzdGEtNTM0OC1JLmpwZw.png',
     desc: `Fettucini Makarnası,  Julyen Doğranmış Tavuk, Mantar, Krema, Cheddar Peyniri ve Köri Sos ile Servis Edilir`,
 },
 {
@@ -1926,7 +1929,7 @@ export const menu = [{
     category: 'Makarnalar',
     priority: 0,
     price: '₺61',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wNQ/250x250/Q3JlYW15LU5hcGEtQ2FiYmFnZS1hbmQtQmFjb24tUGFzdGEtNTM0OC1JLmpwZw.png',
     desc: `Penne Makarnası, Julyen Doğranmış Dana Bonfile, Siyah Dilim Zeytin, Kaşar Peyniri, Pesto Sos ve Domates Sosu ile Servis Edilir`,
 },
 {
@@ -1936,7 +1939,7 @@ export const menu = [{
     category: 'Makarnalar',
     priority: 0,
     price: '₺61',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wNQ/250x250/Q3JlYW15LU5hcGEtQ2FiYmFnZS1hbmQtQmFjb24tUGFzdGEtNTM0OC1JLmpwZw.png',
     desc: `Penne Makarnası Siyah Dilim Zeytin, Kaşar Peyniri, Domates Sos ve Acı Sos ile Servis Edilir `,
 },
 {
@@ -1946,7 +1949,7 @@ export const menu = [{
     category: 'Makarnalar',
     priority: 0,
     price: '₺67',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxNi8wOA/250x250/U29iYS1Ob29kbGUtU2FsYWQtdzcyMi5qcGc.png',
     desc: `Noodle Makarnası, Julyen Doğranmış Tavuk Bonfile, Julyen Doğranmış Havuç, Kuru Soğan, Beyaz Lahana, Brokoli, Chili Sos, Soya Sos ve Özel Baharatlarla Tatlandırılmış Enfes Bir Lezzet`,
 },
 {
@@ -1956,7 +1959,7 @@ export const menu = [{
     category: 'Makarnalar',
     priority: 0,
     price: '₺71',
-    img: '',
+    img: 'https://cdn1.searchiq.co/thumb/justonecookbook.com/aHR0cHM6Ly93d3cuanVzdG9uZWNvb2tib29rLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxNi8wOA/250x250/U29iYS1Ob29kbGUtU2FsYWQtdzcyMi5qcGc.png',
     desc: `Noodle Makarnası, Julyen Doğranmış Dana Bonfile, Julyen Doğranmış Havuç, Kuru Soğan, Beyaz Lahana, Brokoli, Chili Sos, Soya Sos ve Özel Baharatlarla Tatlandırılmış Enfes Bir Lezzet`,
 },
 
